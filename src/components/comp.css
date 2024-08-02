@@ -1,0 +1,32 @@
+.hero{
+    background-image: url("https://i.pinimg.com/originals/f4/56/c1/f456c1a56eebc0b5a76096254d6e8d49.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
+    width: unset !important;
+    height: unset !important;
+    font-size: unset !important;
+    position: unset !important;
+
+}
+
+.swiper-button-prev::after{
+    font-size:unset !important;
+    color: black;
+    font-weight: 800;
+
+}
+.swiper-button-next::after{
+    font-size:unset !important;
+    color: black;
+    font-weight: 800;
+}
